@@ -13,7 +13,10 @@
 
 
 print("Part 1:")
-speed = (23029-2029)/(2)
+speed = (23029-2029)/(45)
 distance = speed*25
 print(distance)
-print("sybau please")
+distance/=25
+distance*=300
+print("Part 2:")
+print(distance)
